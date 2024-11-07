@@ -1,62 +1,55 @@
-Introduction To The Problem
+# ABC Technologies Employee Transfer Management System
 
-ABC Technologies Ltd. wants to develop an application for maintaining information related to its employees transfer and generating the transfer related documents. This application would be facilitating the system administrator (Higher Management) to search the employees transfer record, make new transfers and also amend the allowances offered to the employee, which usually depends on the post of the employee and the type of transfer he is getting.
+This application manages employee transfer information, generates transfer-related documents, and allows authorized users to search, update, and create transfer records. The system is designed for ABC Technologies Ltd., aiming to streamline employee transfer processes, centralize data, and improve accessibility for management and employees.
 
-Existing Scenario
+## Project Overview
 
-Currently the transfer records are maintained in the computer but there is no fixed format for it. Also the information needs to be shared by releasing circulars to the respective managers and employees and other related staff members (if any).
-The information though maintained on computers, entire information can not be found at single place. If higher management wants some details about the transfers, they have to get it from the respective department heads. This becomes time consuming.
+**Current Scenario**: Employee transfer records are maintained manually with inconsistent formats, creating inefficiencies in retrieving, updating, and communicating information. The current process is time-consuming as information is scattered across departments, and transfer notifications rely on circulars.
 
-Proposed Solution
+**Proposed Solution**: A centralized system that allows:
+- Centralized access to all transfer records.
+- Role-based access for system administrators and employees.
+- Streamlined functions for generating documents and reports related to employee transfers.
 
-The management has decided to have a system for managing the transfers which will access a central database. 
-This system can be installed on all the machines and the employees will have restricted access levels.
-The system will have logins for employees and system administrator. And searching transfer records, updating records, making new transfers etc will be taken care of.
-Functional Requirements Following is a list of functionalities of the system. More functionalities that you find appropriate can be added to this list.
+## System Features
 
-Login
+1. **User Login**  
+   - **Employees**: Limited access for request submission and status updates.
+   - **System Administrators**: Full access for managing transfers and generating reports.
 
-a) Employees
-b) System Administrator
+2. **Transfer Management**  
+   - **Search Transfer Records**: Search based on multiple fields, including:
+      - Employee Number, Employee Name, From/To Location, From/To Project, From/To Department, and more.
+   - **Update and Create Transfers**: Update existing records or create new transfer entries.
+   - **Employee Transfer Requests**: Employees can submit transfer requests via a dedicated form.
+   - **Transfer Approvals**: Approvals required from authorized personnel.
 
-Interface for filling up the following information
-a) Searching the transfer records.
-The search can be based on the following fields : 
-Employee Number,
-Employee Name,
-From Location, 
-To Location,
-From Project,
-To Project,
-From Department, 
-To Department, etc...
-b) Updating the transfer records. 
-c) Making new transfers.(this can be combined with the update page
-by enabling and disabling the update and make transfer buttons.)
+3. **Allowance Calculation**  
+   - Generate allowances based on transfer location and employee post.
 
-Employees can request for the transfer: design the form with appropriate interface.
+4. **Document Generation**  
+   - **Transfer Letters**: Generate official transfer letters for each transfer.
+   - **Reports**: Create reports for:
+      - Transfers within specific time spans.
+      - Transfers related to specific projects.
 
-Approval for the requested transfer.
+5. **Logout**  
+   - Ensures secure access to the system by ending the session.
 
-Generate the allowances; the employee will be entitled for based on the transfer location and his post.
+## Database Structure
 
-Generate transfer letters.
+The **Employee Master Record** table stores the following fields, among others:
+- **Employee Information**: Employee Number, Employee Name, Role, Work Experience.
+- **Project and Department Information**: Current Project, Current Department, Transfer Project, Transfer Department.
+- **Location and Dates**: Current Location, Transfer Location, Transfer Relieving Date, Transfer Joining Date.
+- **Management Information**: Reporting Manager.
 
-Generate various reports like employees transferred in particular month / time span, transfers happened for particular projects etc.
+## Usage Instructions
 
-Logout
-
-The Employee Master Record may contain the following fields (and some more which you wish to add):
-
-Employee Number,
-Employee Name,
-Role,
-Work Experience,
-Current Project,
-Current Location,
-Transfer Project,
-Transfer Location, Current Department,
-Transfer Department.
-Transfer Relieving Date,
-Transfer Joining Date,
-Reporting Manager.
+1. **Login**: Access the application with user-specific credentials.
+2. **Search Records**: Use the search tool to filter transfer records by relevant parameters.
+3. **Create or Update Transfer Records**: Fill in necessary details for new or existing records.
+4. **Generate Reports**: Use the reporting tool to analyze transfer data by month, project, or location.
+5. **Request Transfers (Employees)**: Submit transfer requests for review.
+6. **Calculate Allowances**: Automatically calculate transfer allowances based on policy.
+7. **Logout**: Securely log out from the system.
