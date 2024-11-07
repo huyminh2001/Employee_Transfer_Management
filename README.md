@@ -9,22 +9,29 @@ The information though maintained on computers, entire information can not be fo
 
 Proposed Solution
 
-The management has decided to have a system for managing the transfers which will access a central database. This system can be installed on all the machines and the employees will have restricted access levels.
+The management has decided to have a system for managing the transfers which will access a central database. 
+This system can be installed on all the machines and the employees will have restricted access levels.
 The system will have logins for employees and system administrator. And searching transfer records, updating records, making new transfers etc will be taken care of.
 Functional Requirements Following is a list of functionalities of the system. More functionalities that you find appropriate can be added to this list.
 
 Login
+
 a) Employees
 b) System Administrator
 
 Interface for filling up the following information
 a) Searching the transfer records.
-The search can be based on the following fields : Employee Number,
+The search can be based on the following fields : 
+Employee Number,
 Employee Name,
-From Location, To Location,
+From Location, 
+To Location,
 From Project,
-To Project, From Department, To Department etc
-b) Updating the transfer records. c) Making new transfers.(this can be combined with the update page
+To Project,
+From Department, 
+To Department, etc...
+b) Updating the transfer records. 
+c) Making new transfers.(this can be combined with the update page
 by enabling and disabling the update and make transfer buttons.)
 
 Employees can request for the transfer: design the form with appropriate interface.
