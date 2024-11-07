@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-22">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="src/libs/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="src/libs/flatlaf-3.5.1.jar"/>
+	<classpathentry kind="lib" path="src/libs/gson-2.11.0.jar"/>
+	<classpathentry kind="lib" path="src/libs/jBCrypt-0.4.1.jar"/>
+	<classpathentry kind="lib" path="src/libs/jcalendar-1.4.jar"/>
+	<classpathentry kind="lib" path="src/libs/jgoodies-common-1.2.0.jar"/>
+	<classpathentry kind="lib" path="src/libs/jgoodies-looks-2.4.1.jar"/>
+	<classpathentry kind="lib" path="src/libs/junit-4.6.jar"/>
+	<classpathentry kind="lib" path="src/libs/mail-1.4.7.jar"/>
+	<classpathentry kind="lib" path="src/libs/mysql-connector-java-8.0.29.jar"/>
+	<classpathentry kind="lib" path="src/libs/flatlaf-intellij-themes-3.5.1.jar"/>
+	<classpathentry kind="lib" path="src/libs/material-theme-jetbrains-9.5.0.jar"/>
+	<classpathentry kind="lib" path="src/libs/jcommon-1.0.23.jar"/>
+	<classpathentry kind="lib" path="src/libs/jfreechart-1.0.19.jar"/>
+	<classpathentry kind="lib" path="src/libs/jfreechart-1.0.19-experimental.jar"/>
+	<classpathentry kind="lib" path="src/libs/jfreechart-1.0.19-swt.jar"/>
+	<classpathentry kind="lib" path="src/libs/jfreesvg-2.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
