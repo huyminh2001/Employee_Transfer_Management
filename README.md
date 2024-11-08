@@ -2,6 +2,9 @@
 
 This application manages employee transfer information, generates transfer-related documents, and allows authorized users to search, update, and create transfer records. The system is designed for ABC Technologies Ltd., aiming to streamline employee transfer processes, centralize data, and improve accessibility for management and employees.
 
+## Note
+This project use Java JDBC as backend, JFramework as Application UI, MySQL as database, XAMPP as local server.
+
 ## Project Overview
 
 **Current Scenario**: Employee transfer records are maintained manually with inconsistent formats, creating inefficiencies in retrieving, updating, and communicating information. The current process is time-consuming as information is scattered across departments, and transfer notifications rely on circulars.
@@ -53,3 +56,6 @@ The **Employee Master Record** table stores the following fields, among others:
 5. **Request Transfers (Employees)**: Submit transfer requests for review.
 6. **Calculate Allowances**: Automatically calculate transfer allowances based on policy.
 7. **Logout**: Securely log out from the system.
+
+## Setup
+1. 
