@@ -57,5 +57,4 @@ The **Employee Master Record** table stores the following fields, among others:
 6. **Calculate Allowances**: Automatically calculate transfer allowances based on policy.
 7. **Logout**: Securely log out from the system.
 
-## Setup
-1. 
+
